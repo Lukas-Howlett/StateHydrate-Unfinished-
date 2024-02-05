@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/editable_sexInput"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="336dp"
+        android:text="(Off is Male, On is Female)"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexQuery"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/athleteQuery3"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:text="Athlete?"
+        app:layout_constraintBottom_toTopOf="@+id/editable_athleteInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <Switch
+        android:id="@+id/editable_breastfeedingInput"
+        android:layout_width="91dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="228dp"
+        android:text="Switch ON for yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/breastfeedingQuery"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Switch
+        android:id="@+id/editable_pregnantInput"
+        android:layout_width="91dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="228dp"
+        android:text="Switch ON for yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pregnantQuery"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/breastfeedingQuery3"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:text="Breastfeeding?"
+        app:layout_constraintBottom_toTopOf="@+id/editable_breastfeedingInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <TextView
+        android:id="@+id/sexQuery3"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:text="Biological Sex "
+        app:layout_constraintBottom_toTopOf="@+id/editable_sexInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/pregnantQuery3"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:text="Pregnant?"
+        app:layout_constraintBottom_toTopOf="@+id/editable_pregnantInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <Switch
+        android:id="@+id/editable_athleteInput"
+        android:layout_width="91dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="340dp"
+        android:text="Switch ON for yes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/athleteQuery"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editable_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Insert Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <EditText
+        android:id="@+id/editable_lifestage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Insert Life-Stage (Teen, Adult, Elderly)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toEndOf="@+id/btnDelete"
+        app:layout_constraintTop_toBottomOf="@+id/editable_name"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="DELETE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editable_name"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <Button
+        android:id="@+id/btnHydrationStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hydration Stats"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
